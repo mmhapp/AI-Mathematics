@@ -6,7 +6,7 @@ This umbrella repository links projects on [Backpropagation](https://github.com/
 
 ## Repositories
 
-The core ideas behind [Backpropagation](https://github.com/mmhapp/Backpropagation) are gradient of loss function and chain rule.
+The core ideas behind [Backpropagation](https://github.com/mmhapp/Backpropagation) are gradient of the loss function and the chain rule.
 
 The gradient of the loss is propagated backwards through the network with the chain rule as
 
