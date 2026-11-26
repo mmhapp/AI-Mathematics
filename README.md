@@ -1,6 +1,6 @@
 # AI Mathematics
 
-This umbrella repository links three projects on [Backpropagation](https://github.com/mmhapp/Backpropagation), [Diffusion](https://github.com/mmhapp/Diffusion), and [Optimisers](https://github.com/mmhapp/Optimisers). Projects rebuild the core ideas of machine learning (ML) from scratch and open up the mathematics behind them. These building blocks appear everywhere in modern artificial intelligence (AI) – optimisers train large language models, backpropagation is how every neural network learns, and diffusion is used in generative models.
+This umbrella repository links projects on [Backpropagation](https://github.com/mmhapp/Backpropagation), [Diffusion](https://github.com/mmhapp/Diffusion), and [Optimisers](https://github.com/mmhapp/Optimisers). Projects rebuild the core ideas of machine learning (ML) from scratch and open up the mathematics behind them. These building blocks appear everywhere in modern artificial intelligence (AI) – optimisers train large language models, backpropagation is how every neural network learns, and diffusion is used in generative models.
 
 ---
 
