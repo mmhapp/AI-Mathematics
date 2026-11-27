@@ -14,11 +14,11 @@ $\delta^{(l)} = \bigl(\delta^{(l+1)}(W^{(l+1)})^\top\bigr)\odot\sigma'(z^{(l)})$
 
 The parameter gradients follow directly as
 
-$\frac{\partial L}{\partial W^{(l)}} = (a^{(l-1)})^\top\delta^{(l)},\qquad\frac{\partial L}{\partial b^{(l)}} = \sum_i\delta^{(l)}_i$.
+$\frac{\partial L}{\partial W^{(l)}} = (a^{(l-1)})^\top\delta^{(l)},\quad\frac{\partial L}{\partial b^{(l)}} = \sum_i\delta^{(l)}_i$.
 
-The core idea behind [Diffusion](https://github.com/mmhapp/Diffusion) is the forward noising process, in closed form as
+The core idea behind [Diffusion](https://github.com/mmhapp/Diffusion) is the forward noising process. In closed form described as
 
-$x_t = \sqrt{\bar\alpha_t}\,x_0 + \sqrt{1-\bar\alpha_t}\,\epsilon,\qquad\epsilon\sim\mathcal{N}(0,I)$.
+$x_t = \sqrt{\bar\alpha_t}\,x_0 + \sqrt{1-\bar\alpha_t}\,\epsilon,\quad\epsilon\sim\mathcal{N}(0,I)$.
 
 The core ideas behind [Optimisers](https://github.com/mmhapp/Optimisers) are Gradient Descent, Momentum, and Adam.
 
